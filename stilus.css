@@ -1,0 +1,49 @@
+*{box-sizing: border-box;
+font-family: Arial, Verdana, sans-serif;
+color: beige;
+font-size: 10px;
+margin: 0px;
+padding: 0px;
+}
+header{background-image: url(sor/design/beer-new_401732638.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: auto;
+}
+header h1{font-weight: bold;
+    font-family: Garamond;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+body{background-image: url(sor/design/teglafal.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+}
+main{width: 100%;
+margin: auto;
+max-width: 1000px;
+background-color: #333333;
+display: grid;
+grid-template-columns: auto 200px;}
+article h2{font-size: 15px;
+}
+article p{text-align: justify;
+font-size: 10px;}
+
+ul li{
+    list-style: square;
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: red;
+    font-weight: bold;
+}
+ul li:hover{background-color: lightgray;
+    color: white;
+}
+a{text-decoration: none;
+}
